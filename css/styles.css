@@ -156,7 +156,9 @@ padding-right: 15px;
 }
 
 .mail:hover .mail-icon,
-.phone:hover .phone-icon{
+.phone:hover .phone-icon
+.mail:focus .mail-icon,
+.phone:focus .phone-icon{
   fill: var(--hover-focus-color);
 }
 
